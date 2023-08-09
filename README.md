@@ -1,4 +1,5 @@
 # TwitchAdSolutions
+> [My UserScripts](https://github.com/yungsamd17/UserScripts)
 
 This repo aims to provide multiple solutions for blocking Twitch ads.<br>
 **Don't combine Twitch specific ad blockers.**
