@@ -16,7 +16,7 @@ Alternatively: [Check this full list with descriptions.](full-list.md)
 
 **My recommendation as it seems to be the best and most reliable ad-blocker.**
 
-- vaft - [ublock](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft-ublock-origin.js) / [userscript](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js) / [ublock (permalink)](https://github.com/yungsamd17/TwitchAdSolutions/raw/4a64aab0ac406faf8321842dbadfc11560312403/vaft/vaft-ublock-origin.js)
+- vaft - [ublock](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft-ublock-origin.js) / [userscript](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js) / [ublock (permalink)](https://github.com/yungsamd17/TwitchAdSolutions/raw/c3663da4a9c62c87051e6666f57765319c0b3a3a/vaft/vaft-ublock-origin.js)
   - `Video Ad-Block, for Twitch` (fork) as a script.
   - *Full screen ad message displayed during ads.*
 
