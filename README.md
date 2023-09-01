@@ -1,19 +1,9 @@
 # TwitchAdSolutions
-> [My UserScripts](https://github.com/yungsamd17/UserScripts)
 
 This repo aims to provide multiple solutions for blocking Twitch ads.<br>
 **Don't combine Twitch specific ad blockers.**
 
-## Recommendations
-
-Proxies are the most reliable way of avoiding ads ([buffering / downtime info](full-list.md#proxy-issues)).
-
-- `TTV LOL PRO` - [chrome](https://chrome.google.com/webstore/detail/ttv-lol-pro/bpaoeijjlplfjbagceilcgbkcdjbomjd) / [firefox](https://addons.mozilla.org/addon/ttv-lol-pro/) / [code](https://github.com/younesaassila/ttv-lol-pro)
-- `TTV LOL` - [chrome](https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm) / [code](https://github.com/TTV-LOL/extensions)
-
-Alternatively: [Check this full list with descriptions.](full-list.md)
-
-## Script
+## Recommendation
 
 **My recommendation as it seems to be the best and most reliable ad-blocker.**
 
@@ -22,6 +12,8 @@ Alternatively: [Check this full list with descriptions.](full-list.md)
   - *Full screen ad message displayed during ads.*
 
 *For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update).*
+
+Alternatively: [Check this full list with descriptions.](full-list.md)
 
 ## Applying a script (uBlock Origin)
 
