@@ -13,7 +13,7 @@ This repo aims to provide multiple solutions for blocking Twitch ads.<br>
 
 *For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update).*
 
-Alternatively: [Check this full list with descriptions.](full-list.md)
+Alternatively: [Check this full list with descriptions.](FULL-LIST.md)
 
 ## Applying a script (uBlock Origin)
 
