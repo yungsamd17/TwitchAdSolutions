@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Video Ad-Block, for Twitch (vaft)
+// @name         Video Ad-Block, for Twitch (VAFT)
 // @description  Blocks Ads on Twitch.tv
-// @version      5.8.8
+// @version      5.8.9
 // @author       yungsamd17
 // @namespace    https://github.com/yungsamd17/TwitchAdSolutions
 // @downloadURL  https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js
@@ -280,7 +280,7 @@
         return req.responseText.split("'")[1];
     }
     function hookWorkerFetch() {
-        console.log('Twitch adblocker is enabled');
+        console.log("%cVAFT:", "color: #9147ff", "Twitch adblocker is enabled.");
         var realFetch = fetch;
         fetch = async function(url, options) {
             if (typeof url === 'string') {
@@ -559,7 +559,7 @@
             }
         } else {
             if (WasShowingAd) {
-                console.log('Finished blocking ads');
+                console.log("%cVAFT:", "color: #9147ff", "Finished blocking ads");
                 WasShowingAd = false;
                 //Here we put player back to original quality and remove the blocking message.
                 postMessage({

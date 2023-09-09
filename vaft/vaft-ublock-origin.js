@@ -268,7 +268,7 @@ twitch-videoad.js text/javascript
         return req.responseText.split("'")[1];
     }
     function hookWorkerFetch() {
-        console.log('Twitch adblocker is enabled');
+        console.log("%cVAFT:", "color: #9147ff", "Twitch adblocker is enabled.");
         var realFetch = fetch;
         fetch = async function(url, options) {
             if (typeof url === 'string') {
@@ -547,7 +547,7 @@ twitch-videoad.js text/javascript
             }
         } else {
             if (WasShowingAd) {
-                console.log('Finished blocking ads');
+                console.log("%cVAFT:", "color: #9147ff", "Finished blocking ads");
                 WasShowingAd = false;
                 //Here we put player back to original quality and remove the blocking message.
                 postMessage({
