@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         TwitchAdSolutions (vaft)
-// @description  Multiple solutions for blocking Twitch ads (vaft)
-// @version      5.8.5
+// @name         Video Ad-Block, for Twitch (VAFT)
+// @description  Blocks Ads on Twitch.tv
+// @version      5.8.9
 // @author       yungsamd17
 // @namespace    https://github.com/yungsamd17/TwitchAdSolutions
 // @downloadURL  https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js
 // @updateURL    https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js
+// @icon         https://raw.githubusercontent.com/yungsamd17/TwitchAdSolutions/master/vaft/icon/vaft.png
 // @match        *://*.twitch.tv/*
 // @run-at       document-start
 // @grant        none
@@ -68,10 +69,8 @@
         scope.ClientID = 'kimne78kx3ncx6brgo4mv6wki5h1ko';
         scope.ClientVersion = 'null';
         scope.ClientSession = 'null';
-        //scope.PlayerType1 = 'site'; //Source - NOTE: This is unused as it's implicitly used by the website iself
-        scope.PlayerType2 = 'embed'; //360p
-        scope.PlayerType3 = 'embed'; //Source
-        //scope.PlayerType4 = 'embed'; //Source
+        scope.PlayerType2 = 'embed'; //Source
+        scope.PlayerType3 = 'autoplay'; //360p
         scope.CurrentChannelName = null;
         scope.UsherParams = null;
         scope.WasShowingAd = false;
@@ -281,7 +280,7 @@
         return req.responseText.split("'")[1];
     }
     function hookWorkerFetch() {
-        console.log('Twitch adblocker is enabled');
+        console.log("%cVAFT:", "color: #9147ff", "Twitch adblocker is enabled.");
         var realFetch = fetch;
         fetch = async function(url, options) {
             if (typeof url === 'string') {
@@ -295,9 +294,6 @@
                             if (weaverText.includes(AdSignifier)) {
                                 weaverText = await processM3U8(url, responseText, realFetch, PlayerType3);
                             }
-                            //if (weaverText.includes(AdSignifier)) {
-                            //    weaverText = await processM3U8(url, responseText, realFetch, PlayerType4);
-                            //}
                             resolve(new Response(weaverText));
                         };
                         var send = function() {
@@ -563,7 +559,7 @@
             }
         } else {
             if (WasShowingAd) {
-                console.log('Finished blocking ads');
+                console.log("%cVAFT:", "color: #9147ff", "Finished blocking ads");
                 WasShowingAd = false;
                 //Here we put player back to original quality and remove the blocking message.
                 postMessage({

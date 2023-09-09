@@ -3,24 +3,17 @@
 This repo aims to provide multiple solutions for blocking Twitch ads.<br>
 **Don't combine Twitch specific ad blockers.**
 
-## Recommendations
-
-Proxies are the most reliable way of avoiding ads ([buffering / downtime info](full-list.md#proxy-issues)).
-
-- `TTV LOL PRO` - [chrome](https://chrome.google.com/webstore/detail/ttv-lol-pro/bpaoeijjlplfjbagceilcgbkcdjbomjd) / [firefox](https://addons.mozilla.org/addon/ttv-lol-pro/) / [code](https://github.com/younesaassila/ttv-lol-pro)
-- `TTV LOL` - [chrome](https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm) / [code](https://github.com/TTV-LOL/extensions)
-
-Alternatively: [Check this full list with descriptions.](full-list.md)
-
-## Script
+## Recommendation
 
 **My recommendation as it seems to be the best and most reliable ad-blocker.**
 
-- vaft - [ublock](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft-ublock-origin.js) / [userscript](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js) / [ublock (permalink)](https://github.com/yungsamd17/TwitchAdSolutions/raw/4a64aab0ac406faf8321842dbadfc11560312403/vaft/vaft-ublock-origin.js)
-  - `Video Ad-Block, for Twitch` (fork) as a script.
-  - *Full screen ad message displayed during ads.*
+- Video Ad-Block, for Twitch (VAFT) - [ublock](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft-ublock-origin.js) / [userscript](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js) / [ublock (permalink)](https://github.com/yungsamd17/TwitchAdSolutions/raw/c3663da4a9c62c87051e6666f57765319c0b3a3a/vaft/vaft-ublock-origin.js)
+  - [`Video Ad-Block, for Twitch`](https://github.com/cleanlock/VideoAdBlockForTwitch) **fork** as a script.
+  - *Message displayed during ads when they are getting blocked.*
 
 *For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update).*
+
+Alternatively: [Check this full list with descriptions.](FULL-LIST.md)
 
 ## Applying a script (uBlock Origin)
 
