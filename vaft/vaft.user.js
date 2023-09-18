@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Video Ad-Block, for Twitch (VAFT)
 // @description  Blocks Ads on Twitch.tv
-// @version      5.8.9
+// @version      5.9.0
 // @author       yungsamd17
 // @namespace    https://github.com/yungsamd17/TwitchAdSolutions
 // @downloadURL  https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js
@@ -263,7 +263,7 @@
                     if (adBlockDiv == null) {
                         adBlockDiv = document.createElement('div');
                         adBlockDiv.className = 'adblock-overlay';
-                        adBlockDiv.innerHTML = '<div class="player-adblock-notice" style="color: white; background-color: rgba(0, 0, 0, 0.8); position: absolute; top: 0px; left: 0px; padding: 5px;"><p></p></div>';
+                        adBlockDiv.innerHTML = '<div class="player-adblock-notice" style="color: white; background-color: rgba(0, 0, 0, 0.8); position: absolute; top: 0px; left: 0px; padding: 5px; border-bottom-right-radius: 0.4rem;"><p></p></div>';
                         adBlockDiv.style.display = 'none';
                         adBlockDiv.P = adBlockDiv.querySelector('p');
                         playerRootDiv.appendChild(adBlockDiv);
