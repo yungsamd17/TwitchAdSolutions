@@ -24,6 +24,7 @@ Or use VAFT below if you want a script solution.
 
   - [`Video Ad-Block, for Twitch`](https://github.com/cleanlock/VideoAdBlockForTwitch) fork as a script (original, now unmaintained), continued by [`ryanbr`](https://github.com/ryanbr/TwitchAdSolutions).
   - _Message displayed during ads when they are getting blocked._
+  - More info upstream: [docs & changelog](https://github.com/ryanbr/TwitchAdSolutions) · [known issues (freezing/buffering)](https://github.com/ryanbr/TwitchAdSolutions/blob/master/issues.md) · [releases](https://github.com/ryanbr/TwitchAdSolutions/releases) · [issue tracker](https://github.com/ryanbr/TwitchAdSolutions/issues) — report VAFT bugs there, not here.
 
 _For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update)._
 
