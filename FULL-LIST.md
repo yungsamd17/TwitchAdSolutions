@@ -1,4 +1,5 @@
 *There was an update on 31st May 2023 which may have broken some solutions.*
+*Freshness pass Sep 2026: dead entries removed (`TTV LOL` original, `ttv_adEraser`, `cleanlock` fork as a standalone solution — use the VAFT in this repo instead). `Purple AdBlock` marked stale (see below).*
 
 ## Web browser extensions
 
@@ -8,20 +9,13 @@
   - **NOTE: Incompatible with proxies made for the original TTV LOL.**
 - `TTV LOL PRO (v1)` - [code](https://github.com/younesaassila/ttv-lol-pro/tree/v1)
   - The older, deprecated version of `TTV LOL PRO` that still uses TTV LOL-compatible proxies. Only use this if you're having issues with the current version and know what you're doing.
-- `TTV LOL` - [chrome](https://chrome.google.com/webstore/detail/ttv-lol/ofbbahodfeppoklmgjiokgfdgcndngjm) / [code](https://github.com/TTV-LOL/extensions)
-  - Uses a proxy on the main m3u8 file to get a stream without ads.
 - `Alternate Player for Twitch.tv` - [chrome](https://chrome.google.com/webstore/detail/alternate-player-for-twit/bhplkbgoehhhddaoolmakpocnenplmhf) / [firefox](https://addons.mozilla.org/en-US/firefox/addon/twitch_5/)
   - Removes ad segments (no playback until ad-free stream).
 - `Purple AdBlock` - [chrome](https://chrome.google.com/webstore/detail/purple-adblock/lkgcfobnmghhbhgekffaadadhmeoindg) / [firefox](https://addons.mozilla.org/en-US/firefox/addon/purpleadblock/) / [code](https://github.com/arthurbolsoni/Purple-adblock/)
+  - ⚠️ **Stale/broken (last update Jan 2025):** reports since mid-2025 of ads getting through, `#2000` errors and reload loops. Try only if nothing else works, and don't combine with other Twitch ad blockers.
   - Replaces ad segments with ad-free segments. Proxy fallback which is currently broken. Loading wheel when all methods fail.
 - `AdGuard Extra (Beta)` - [chrome](https://chrome.google.com/webstore/detail/adguard-extra-beta/mglpocjcjbekdckiahfhagndealpkpbj) / [firefox](https://github.com/AdguardTeam/AdGuardExtra/#firefox)
   - Uses segments from the `embed` player during ads. This can get a clean stream faster but suffers from audio sync / freezing issues.
-- `Video Ad-Block, for Twitch` (fork) - [code](https://github.com/cleanlock/VideoAdBlockForTwitch)
-  - Replaces ad segments with ad-free segments. Opt-in proxy fallback during ad segments when the ad-free stream fails locally. Adblocker warning when all methods fail.
-- `ttv_adEraser` - [chrome](https://chrome.google.com/webstore/detail/ttv-aderaser/pjnopimdnmhiaanhjfficogijajbhjnc) / [firefox (manual install)](https://github.com/LeonHeidelbach/ttv_adEraser#mozilla-firefox) / [code](https://github.com/LeonHeidelbach/ttv_adEraser)
-  - Switches to the `embed` player when there's ads. May display purple screen if both ads and purple screen show at the same time?
-- `ttv-tools` - [firefox (manual install)](https://github.com/Nerixyz/ttv-tools/releases) / [code](https://github.com/Nerixyz/ttv-tools)
-  - Removes ad segments (no playback until ad-free stream).
   
 ---
 
