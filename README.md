@@ -19,13 +19,13 @@ Or use VAFT below if you want a script solution.
 
 ## VAFT — Video Ad-Block, for Twitch
 
-- uBlock: [vaft-ublock-origin.js](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft-ublock-origin.js)
+- uBlock: [vaft-ublock-origin.js](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft-ublock-origin.js) / [ublock (permalink)](https://github.com/yungsamd17/TwitchAdSolutions/raw/ce73797192dc89a886766fb2615173cd7da2bb1a/vaft/vaft-ublock-origin.js)
 - Userscript: [vaft.user.js](https://github.com/yungsamd17/TwitchAdSolutions/raw/master/vaft/vaft.user.js)
 
   - [`Video Ad-Block, for Twitch`](https://github.com/cleanlock/VideoAdBlockForTwitch) fork as a script (original, now unmaintained), continued by [`ryanbr`](https://github.com/ryanbr/TwitchAdSolutions).
   - _Message displayed during ads when they are getting blocked._
 
-_For the sake of security it's recommended to use a permalink (commit-pinned URL) when using uBlock Origin (permalinks do not auto update). Permalink will be updated after this sync is pushed — use the `master` URL above for now._
+_For the sake of security it's recommended to use a permalink when using uBlock Origin (permalinks do not auto update)._
 
 Alternatively: [Check this full list with descriptions.](FULL-LIST.md)
 
